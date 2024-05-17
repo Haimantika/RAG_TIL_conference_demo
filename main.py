@@ -1,4 +1,9 @@
 from flask import Flask, request, render_template
+from dotenv import load_dotenv
+load_dotenv()  # This loads the variables from .env
+
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+
 import fitz  # PyMuPDF
 import requests
 import os
@@ -10,7 +15,7 @@ UPLOAD_FOLDER = 'path/to/your/upload/folder'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+
 
 
 # Sample corpus: List of paragraphs on different topics
