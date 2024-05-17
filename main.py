@@ -11,7 +11,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-OPENAI_API_KEY = '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'
 
 
 # Sample corpus: List of paragraphs on different topics
