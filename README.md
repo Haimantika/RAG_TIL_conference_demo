@@ -13,7 +13,7 @@ It involves two main processes:
 
 - **Upload and Read PDF**: Imagine if someone gave you a book and asked you to summarize it. The first thing you do is read the book. Similarly, your application takes a PDF file, reads it, and extracts all the text.
 - **Find Relevant Information**: After reading the book, you need to remember or look up related information to help make a better summary. The application does this by looking through a pre-prepared list of texts (corpus) to find any content that matches keywords from the PDF. It’s like searching your own notes to see if there’s anything related.
-- **Generate Summary**: With all this information, you then try to write a summary. The application does this by sending both the text from the PDF and the additional related text it found to a powerful computer program (like GPT-3.5 Turbo), which then writes a summary.
+- **Generate Summary**: With all this information, you then try to write a summary. The application does this by sending both the text from the PDF and the additional related text it found to OpenAI model (like GPT-3.5 Turbo), which then writes a summary.
 
 ### Simplification with analogies:
 - **Kitchen Recipe Analogy**: Compare it to cooking where you first gather all the ingredients you need (retrieval) and then cook them to make a dish (generation).
