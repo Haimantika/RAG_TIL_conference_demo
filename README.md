@@ -21,7 +21,7 @@ It involves two main processes:
 
 ### Working of the demo:
 
-**The uploaded PDF is about climate change impacts, and it contains phrases like "rising temperatures" and "changing weather patterns".** The retrieval function might find related content in your corpus, such as the paragraph on climate change. This would be combined with the PDF text and sent to the OpenAI API.
+The uploaded PDF is about climate change impacts, and it contains phrases like "rising temperatures" and "changing weather patterns". The retrieval function might find related content in your corpus, such as the paragraph on climate change. This would be combined with the PDF text and sent to the OpenAI API.
 
 
 
