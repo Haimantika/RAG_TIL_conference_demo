@@ -18,8 +18,6 @@ It involves two main processes:
 ### Simplification with analogies:
 - **Kitchen Recipe Analogy**: Compare it to cooking where you first gather all the ingredients you need (retrieval) and then cook them to make a dish (generation).
 
-### Emphasize the Learning Aspect:
-- **Learning and Improving**: Thi is a demo system and it doesn’t learn and adapt yet, real RAG systems can improve over time. They learn from new data and feedback, just like a student learns from studying more or a chef improves by cooking more dishes.
 
 ### Working of the demo:
 
